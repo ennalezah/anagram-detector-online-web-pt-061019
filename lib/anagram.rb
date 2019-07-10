@@ -12,7 +12,7 @@ class Anagram
     
     possible_anagrams
     
-    @input.scan(possible_anagrams)
+    possible_anagrams.sca
     
     # return empty array if no match
   end
