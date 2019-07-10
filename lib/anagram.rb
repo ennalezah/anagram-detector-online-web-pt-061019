@@ -1,16 +1,16 @@
 # Your code goes here!
 
 class Anagram
-  attr_accessor :given_word
+  attr_accessor :input
   
-  def initialize(given_word)
-    @given_word = given_word
+  def initialize(input)
+    @input = input
   end
   
   def match(possible_anagrams)
     # return all words in possible_anagrams that match with word
     
-    possible_anagrams.find {|word| }
+    possible_anagrams.find {|word| word == input}
     
     # return empty array if no match
   end
