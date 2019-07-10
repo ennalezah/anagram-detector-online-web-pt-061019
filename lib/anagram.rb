@@ -12,7 +12,7 @@ class Anagram
     
   has_match = possible_anagrams.grep(@input)
   
-  if has_match == nil
+  if has_match != true
     []
   end
     
