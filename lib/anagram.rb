@@ -10,8 +10,10 @@ class Anagram
   def match(possible_anagrams)
     # return all words in possible_anagrams that match with word
     
-  has_match = input.grep(/possible_anagrams/)
-  
+    split_input = input.split("")
+    
+    possible_anagrams.select {}
+    
   if has_match != true
     []
   end
