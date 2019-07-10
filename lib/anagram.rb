@@ -12,7 +12,7 @@ class Anagram
     
     split_input = input.split("")
     
-    possible_anagrams.select {}
+    possible_anagrams.select {|word| word.split("").sort == split_input.sort}
     
   if has_match != true
     []
