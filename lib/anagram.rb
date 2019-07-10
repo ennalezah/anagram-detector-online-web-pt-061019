@@ -7,6 +7,7 @@ class Anagram
     @word = word
   end
   
-  def match 
+  def match(possible_anagrams)
+    # return all words in possible_anagrams that match with word
   end
 end
