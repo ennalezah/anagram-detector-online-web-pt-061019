@@ -10,7 +10,7 @@ class Anagram
   def match(possible_anagrams)
     # return all words in possible_anagrams that match with word
     
-    possible_anagrams.grep {}
+    possible_anagrams.grep(@input)
     
     # return empty array if no match
   end
