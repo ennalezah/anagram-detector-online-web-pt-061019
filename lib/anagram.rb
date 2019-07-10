@@ -14,9 +14,9 @@ class Anagram
     
     possible_anagrams.select {|word| word.split("").sort == split_input.sort}
     
-  if has_match != true
-    []
-  end
+  # if has_match != true
+  #   []
+  # end
     
     # return empty array if no match
   end
